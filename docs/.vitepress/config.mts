@@ -26,5 +26,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/cuit-edu-cn/Yukihana' }
     ]
   },
-  base: './',
 })
