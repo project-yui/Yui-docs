@@ -25,5 +25,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cuit-edu-cn/Yukihana' }
     ]
-  }
+  },
 })
