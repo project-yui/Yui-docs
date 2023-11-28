@@ -45,4 +45,4 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@v2
       with:
-          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          token: ${{secrets.ACCESS_TOKEN}}
