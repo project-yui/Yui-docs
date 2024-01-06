@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Yukihana",
-  description: "Yukihana is a bot framework for NTQQ.",
+  description: "Yukihana 是一个基于NTQQ的机器人框架.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       { text: '关于', link: '/about' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '示例', link: '/markdown-examples' }
     ],
 
     sidebar: [

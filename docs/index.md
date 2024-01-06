@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Yukihana"
-  text: "Yukihana is a bot framework for NTQQ."
-  tagline: My great project tagline
+  text: "基于NTQQ的机器人框架"
+  tagline: 基于NTQQ的机器人框架
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 示例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: NTQQ
+    details: 基于最新NTQQ框架开发
+  - title: 稳定
+    details: 稳定不掉线
+  - title: 安全
+    details: 官方客户端，封号风险极低
 ---
 
