@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import markdownItTextualUml from 'markdown-it-textual-uml';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Yukihana",
@@ -20,6 +20,10 @@ export default defineConfig({
             link: '/guide/base'
           },
           {
+            text: '通信模型',
+            link: '/guide/communication'
+          },
+          {
             text: '配置',
             link: '/guide/config'
           },
@@ -36,6 +40,7 @@ export default defineConfig({
           items: [
             { text: '简介', link: '/guide/intro' },
             { text: '基础教程', link: '/guide/base' },
+            { text: '通信模型', link: '/guide/communication' },
             { text: 'Runtime API Examples', link: '/api-examples' }
           ]
         }
@@ -55,4 +60,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/cuit-edu-cn/Yukihana' }
     ]
   },
+  markdown: {
+    config(md) {
+      md.use(markdownItTextualUml)
+    }
+  }
 })

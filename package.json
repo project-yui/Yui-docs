@@ -16,5 +16,8 @@
   "devDependencies": {
     "vitepress": "1.0.0-rc.31",
     "vue": "^3.3.9"
+  },
+  "dependencies": {
+    "markdown-it-textual-uml": "^0.17.1"
   }
 }
