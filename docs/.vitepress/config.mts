@@ -34,7 +34,8 @@ export default defineConfig({
         {
           text: '开始',
           items: [
-            { text: '基础教程', link: '/markdown-examples' },
+            { text: '简介', link: '/guide/intro' },
+            { text: '基础教程', link: '/guide/base' },
             { text: 'Runtime API Examples', link: '/api-examples' }
           ]
         }
