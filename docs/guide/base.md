@@ -15,3 +15,27 @@ Yukihana 通过 websocket/HTTP 等协议与外部进行通信；Yukihana 类似�
 |------|------|
 | index.js | 启动入口文件 |
 | core.jsc | Yukihana核心文件 |
+
+## 使用
+
+安装/解压 Windows/Linux 的QQ。
+
+> 注意：
+> 
+> 1. Windows 的 QQ.exe 需要进行patch操作以去除文件校验。
+> 2. 程序不会出现任何界面，只有命令行。
+
+### Windows
+
+1. 将两个文件移动至：`ntqq/resources/app/app_launcher` 目录下，覆盖原文件。
+2. 命令行打开ntqq文件夹，设置环境变量 `$Env:ELECTRON_RUN_AS_NODE=1` (powershell)。
+3. 执行命令启动程序：`./QQ.exe ./resources/app/app_launcher/index.js`。
+
+### Linux
+
+> 对于Linux, 阁下需要自行处理依赖包问题。
+
+1. 将两个文件移动至：`ntqq/resources/app/app_launcher` 目录下，覆盖原文件。
+2. 命令行打开ntqq文件夹，设置环境变量 0`export ELECTRON_RUN_AS_NODE=1`。
+3. 执行命令启动程序：`./qq ./resources/app/app_launcher/index.js`。
+
