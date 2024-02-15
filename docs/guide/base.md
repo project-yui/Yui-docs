@@ -13,12 +13,14 @@ Yukihana 通过 websocket/HTTP 等协议与外部进行通信；Yukihana 类似�
 1. 到发布页面进行下载：https://github.com/cuit-edu-cn/Yukihana-docs/releases
 2. 下载后取得目标平台的文件
 
-### 自行编译（仅限校内）
+### 自行构建（仅限校内）
 
 1. 点击进入页面右上角的仓库（私有）
 2. 依照仓库中的文档从源码进行构建
 
-一般需要以下文件：
+## 产物
+
+不管您是使用公开成品，还是自行构建，一般会得到以下文件：
 
 | 文件 | 作用 |
 |------|------|
@@ -27,11 +29,11 @@ Yukihana 通过 websocket/HTTP 等协议与外部进行通信；Yukihana 类似�
 
 ## 使用
 
-安装/解压 Windows/Linux 的QQ。
+安装/解压 Windows/Linux 的im。
 
 > 注意：
 > 
-> 1. Windows 的 im.exe 需要进行patch操作以去除文件校验。(参考：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch)
+> 1. Windows 的 im.exe 需要进行patch操作以去除文件校验。(参考：[patch](../reference/patch))
 > 2. 程序不会出现任何界面，只有命令行。
 
 ### Windows
