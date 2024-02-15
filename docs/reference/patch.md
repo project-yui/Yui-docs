@@ -34,7 +34,7 @@
 
 ### 5. 找到返回处
 
-将 `return xxx` 改成 `return 1`
+进入验证函数，将 `return xxx` 改成 `return 1`
 
 ![sub-4](./patch/sub_4.png)
 
