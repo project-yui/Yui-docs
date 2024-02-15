@@ -24,8 +24,8 @@ export default defineConfig({
             link: '/guide/communication'
           },
           {
-            text: '配置',
-            link: '/guide/config'
+            text: '使用Docker',
+            link: '/guide/docker'
           },
         ] 
       },
@@ -41,7 +41,7 @@ export default defineConfig({
             { text: '简介', link: '/guide/intro' },
             { text: '基础教程', link: '/guide/base' },
             { text: '通信模型', link: '/guide/communication' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: '使用Docker', link: '/guide/docker' }
           ]
         }
       ],
