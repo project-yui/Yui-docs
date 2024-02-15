@@ -50,6 +50,15 @@ export default defineConfig({
           },
         ] 
       },
+      {
+        text: '参考',
+        items: [
+          {
+            text: 'Patch',
+            link: '/reference/patch'
+          },
+        ] 
+      },
       { text: '关于', link: '/about' },
       { text: '示例', link: '/markdown-examples' }
     ],
@@ -63,6 +72,17 @@ export default defineConfig({
             { text: '基础教程', link: '/guide/base' },
             { text: '通信模型', link: '/guide/communication' },
             { text: '使用Docker', link: '/guide/docker' }
+          ]
+        }
+      ],
+      'api': [
+        {
+          text: 'API',
+          items: [
+            { text: '公共API', link: '/api/common' },
+            { text: '好友API', link: '/api/friend' },
+            { text: '群组API', link: '/api/group' },
+            { text: '频道API', link: '/api/guild' }
           ]
         }
       ],
