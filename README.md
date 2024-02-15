@@ -10,6 +10,8 @@
 
 ## 程序占用
 
+其中，`yukihana_bot` 是账号服务端，`robot_spring` 是使用java写的机器人程序。
+
 ![程序资源占用](./docs/guide/pic/electron-node2.png)
 
 ## 声明

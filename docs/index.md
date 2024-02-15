@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Yukihana"
-  text: "基于NTQQ的机器人框架"
-  tagline: 基于NTQQ的机器人框架
+  text: "基于im的机器人框架"
+  tagline: 基于im的机器人框架
   actions:
     - theme: brand
       text: 介绍

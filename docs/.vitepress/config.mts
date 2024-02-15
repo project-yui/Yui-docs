@@ -3,7 +3,7 @@ import markdownItTextualUml from 'markdown-it-textual-uml';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Yukihana",
-  description: "Yukihana 是一个基于NTQQ的机器人框架.",
+  description: "Yukihana 是一个基于国内流行im的机器人框架.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
