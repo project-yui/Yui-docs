@@ -31,7 +31,7 @@ services:
     container_name: yukihana
     restart: always
     ports:
-      - "8080:8080"     #red默认端口
+      - "8080:8080"
     environment:
       - TZ=Asia/Shanghai
       - YUKIHANA_LOG=true

@@ -29,6 +29,27 @@ export default defineConfig({
           },
         ] 
       },
+      {
+        text: 'API',
+        items: [
+          {
+            text: '公共',
+            link: '/api/common'
+          },
+          {
+            text: '好友',
+            link: '/api/friend'
+          },
+          {
+            text: '群',
+            link: '/api/group'
+          },
+          {
+            text: '频道',
+            link: '/api/guild'
+          },
+        ] 
+      },
       { text: '关于', link: '/about' },
       { text: '示例', link: '/markdown-examples' }
     ],
