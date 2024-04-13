@@ -29,7 +29,7 @@ TODO...
 
 请求数据：
 
-```
+```json
 {
     "id": "1111",
     "action": "login_by_account",
