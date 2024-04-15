@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Yukihana"
+  name: "Telecord"
   text: "基于im的机器人框架"
   tagline: 基于im的机器人框架
   actions:
