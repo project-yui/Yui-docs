@@ -21,6 +21,22 @@ TODO...
 }
 ```
 
+响应数据
+
+```json
+{
+    "id": "1111",
+    "status": "ok",
+    "retcode": 0,
+    "data": {
+        "qrCodeImage": "data:image/png;base64,xxxx",
+        "qrCodeUrl": "url",
+        "expireTime": 2
+    },
+    "message": ""
+}
+```
+
 ### 账户登录
 
 > 会先判定账户是否可使用账户名直接登录，可以会直接登录，无需密码；
