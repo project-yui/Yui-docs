@@ -1,8 +1,12 @@
 # 简介
 
-本文档将国内流行即时聊天工具简称为im。
+本文档将国内流行即时聊天工具简称为Telecord。
 
 基于im底层组件实现，脱离 `Electron` UI层依赖，没有不必要的占用。
+
+> Telecord
+> 
+> Telegram + Discord => Telecord
 
 ## 通信协议
 
