@@ -1,5 +1,5 @@
 {
-  "name": "telecord-docs",
+  "name": "yukihana-docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:build:ci": "vitepress build docs --base /Telecord-docs/",
+    "docs:build:ci": "vitepress build docs --base /Yukihana-docs/",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],

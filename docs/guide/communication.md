@@ -40,9 +40,9 @@ deactivate GUI
 @enduml
 ```
 
-## Telecord
+## Yukihana
 
-Telecord不是与Electron层进行通信，而是直接与底层进行通信，因此，通信流程大大简化。
+Yukihana不是与Electron层进行通信，而是直接与底层进行通信，因此，通信流程大大简化。
 
 ```plantuml
 @startuml event

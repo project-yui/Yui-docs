@@ -2,7 +2,7 @@
 
 ## 基本概念
 
-Telecord 通过 websocket/HTTP 等协议与外部进行通信；Telecord 类似于一个 `服务器`，具体的机器人实现类似于 `客户端`。
+Yukihana 通过 websocket/HTTP 等协议与外部进行通信；Yukihana 类似于一个 `服务器`，具体的机器人实现类似于 `客户端`。
 
 ## 下载服务端
 
@@ -10,7 +10,7 @@ Telecord 通过 websocket/HTTP 等协议与外部进行通信；Telecord 类似�
 
 > 公开成品使用js字节码进行“加密”，依赖于特定版本的内部虚拟机，可能会无法使用。
 
-1. 到发布页面进行下载：https://github.com/cuit-edu-cn/Telecord-docs/releases
+1. 到发布页面进行下载：https://github.com/project-yukihana/Yukihana-docs/releases
 2. 下载后取得目标平台的文件
 
 ### 自行构建（仅限校内）
@@ -25,7 +25,7 @@ Telecord 通过 websocket/HTTP 等协议与外部进行通信；Telecord 类似�
 | 文件 | 作用 |
 |------|------|
 | index.js | 启动入口文件 |
-| core.jsc | Telecord核心文件 |
+| core.jsc | Yukihana核心文件 |
 
 ## 使用
 
@@ -33,7 +33,7 @@ Telecord 通过 websocket/HTTP 等协议与外部进行通信；Telecord 类似�
 
 > 注意：
 > 
-> 1. ~~Windows 的 im.exe 需要进行patch操作以去除文件校验。(参考：[patch](../reference/patch))~~
+> 1. ~~Windows 的 im.exe 需要进行patch操作以去除文件校验。(参考：[patch](../reference/patch))~~ 本程序不会受到文件校验影响。
 > 2. 程序不会出现任何界面，只有命令行。
 
 ### Windows
