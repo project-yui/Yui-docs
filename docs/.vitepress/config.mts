@@ -54,7 +54,11 @@ export default defineConfig({
         text: '参考',
         items: [
           {
-            text: 'Patch',
+            text: '新Patch',
+            link: '/reference/patch-v2'
+          },
+          {
+            text: '旧Patch',
             link: '/reference/patch'
           },
         ] 
@@ -85,6 +89,15 @@ export default defineConfig({
             { text: '好友API', link: '/api/friend' },
             { text: '群组API', link: '/api/group' },
             { text: '频道API', link: '/api/guild' }
+          ]
+        }
+      ],
+      'reference': [
+        {
+          text: '参考',
+          items: [
+            { text: '新Patch', link: '/reference/patch-v2' },
+            { text: '旧Patch', link: '/reference/patch' }
           ]
         }
       ],
