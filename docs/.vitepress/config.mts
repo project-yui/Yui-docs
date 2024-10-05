@@ -71,7 +71,8 @@ export default defineConfig({
             { text: '简介', link: '/guide/intro' },
             { text: '基础教程', link: '/guide/base' },
             { text: '通信模型', link: '/guide/communication' },
-            { text: '使用Docker', link: '/guide/docker' }
+            { text: '使用Docker', link: '/guide/docker' },
+            { text: '性能', link: '/guide/performance' }
           ]
         }
       ],
@@ -79,6 +80,7 @@ export default defineConfig({
         {
           text: 'API',
           items: [
+            { text: 'Bot 账号', link: '/api/bot' },
             { text: '公共API', link: '/api/common' },
             { text: '好友API', link: '/api/friend' },
             { text: '群组API', link: '/api/group' },

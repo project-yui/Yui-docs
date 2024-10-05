@@ -18,7 +18,7 @@ features:
   - title: 低占用
     details: 基于底层Telecord框架开发，占用100M左右
   - title: 稳定
-    details: 稳定不掉线
+    details: 多账户，稳定不掉线
   - title: 安全
     details: 官方客户端，封号风险极低
 ---
