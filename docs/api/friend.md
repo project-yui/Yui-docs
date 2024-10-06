@@ -98,8 +98,8 @@ Action: `get_user_info`
 
 | 字段 | 类型 | 说明 |
 |-----|------|------|
-| user_uid | string | 用户id, u_xxxx |
-| user_uin | number | 用户账号 |
+| uid | string | 用户id, u_xxxx |
+| uin | number | 用户账号 |
 | nick | string | 昵称 |
 | avatar_url | string | 头像链接 |
 
