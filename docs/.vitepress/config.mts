@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 import markdownItTextualUml from 'markdown-it-textual-uml';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Yukihana",
-  description: "Yukihana 是一个基于国内流行im的机器人框架.",
+  title: "Yui",
+  description: "Yui 是一个基于国内流行im的机器人框架.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -125,7 +125,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/project-yukihana' }
+      { icon: 'github', link: 'https://github.com/project-yui' }
     ]
   },
   markdown: {

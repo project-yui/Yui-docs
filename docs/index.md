@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Yukihana"
+  name: "Yui"
   text: "基于Telecord的机器人框架"
   tagline: 基于Telecord的机器人框架
   actions:

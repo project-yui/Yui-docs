@@ -1,16 +1,16 @@
-# Yukihana-docs
+# Yui-docs
 
-这是一份适用于 Yukihana 机器人的文档。
+这是一份适用于 Yui 机器人的文档。
 
 ## 运行项目
 
-1. 拉取项目代码 `git clone https://github.com/project-yukihana/Yukihana-docs.git`
+1. 拉取项目代码 `git clone https://github.com/project-yui/Yui-docs.git`
 2. 安装依赖 `pnpm install`
 3. 运行开发环境 `pnpm run docs:dev`
 
 ## 程序占用
 
-其中，`yukihana_bot` 是账号服务端，`robot_spring` 是使用java写的机器人程序。
+其中，`yui_bot` 是账号服务端，`robot_spring` 是使用java写的机器人程序。
 
 ![程序资源占用](./docs/guide/pic/electron-node2.png)
 
