@@ -108,6 +108,7 @@ export default defineConfig({
           items: [
             { text: '基本结构', link: '/reference/message' },
             { text: '文本消息', link: '/reference/message/text' },
+            { text: 'At 消息', link: '/reference/message/mention' },
             { text: '图片消息', link: '/reference/message/image' },
           ]
         }

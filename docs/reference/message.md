@@ -26,4 +26,4 @@
 |-----|--------|------|
 | [text](./message/text) | text | 文本元素类型 |
 | [image](./message/image) | pic | 图片元素类型 |
-| mention | at | At元素类型 |
+| [mention](./message/mention) | at | At元素类型 |
