@@ -52,14 +52,17 @@ export default defineConfig({
       },
       {
         text: '参考',
+        activeMatch: '/reference',
         items: [
           {
-            text: '新Patch',
-            link: '/reference/patch-v2'
+            text: 'Patch',
+            link: '/reference/patch-v2',
+            activeMatch: '/reference/patch',
           },
           {
-            text: '旧Patch',
-            link: '/reference/patch'
+            text: '消息定义',
+            link: '/reference/message',
+            activeMatch: '/reference/message',
           },
         ] 
       },
@@ -94,10 +97,18 @@ export default defineConfig({
       ],
       'reference': [
         {
-          text: '参考',
+          text: 'Patch',
           items: [
             { text: '新Patch', link: '/reference/patch-v2' },
             { text: '旧Patch', link: '/reference/patch' }
+          ]
+        },
+        {
+          text: '消息定义',
+          items: [
+            { text: '基本结构', link: '/reference/message' },
+            { text: '文本消息', link: '/reference/message/text' },
+            { text: '图片消息', link: '/reference/message/image' },
           ]
         }
       ],
