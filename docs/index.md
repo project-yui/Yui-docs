@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: 低占用
-    details: 基于底层Telecord框架开发，占用100M左右
+    details: 使用nodejs直接启动，无需Electron
   - title: 稳定
     details: 多账户，稳定不掉线
   - title: 安全

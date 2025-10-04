@@ -2,7 +2,7 @@
 
 本文档将国内流行即时聊天工具简称为Telecord。
 
-基于im底层组件实现，脱离 `Electron` UI层依赖，没有不必要的占用。
+基于im底层组件实现，直接使用 `nodejs` 运行，从根本剔除 `Electron` UI层依赖，**真正的无头**。
 
 > Telecord
 > 
@@ -22,10 +22,4 @@
 
 ### 直接调用底层实现
 
-一开始：
-
-![electron-ui](./pic/electron-node1.png)
-
-一段时间：
-
-![electron-ui](./pic/electron-node2.png)
+![electron-ui](./pic/electron-node.png)
