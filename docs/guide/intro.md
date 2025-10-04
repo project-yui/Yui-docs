@@ -22,4 +22,4 @@
 
 ### 直接调用底层实现
 
-![electron-ui](./pic/electron-node.png)
+![electron-ui](./pic/node-running.jpg)
