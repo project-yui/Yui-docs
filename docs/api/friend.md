@@ -1,5 +1,16 @@
 # 好友API
 
+本页对应 `src/app/friend/register-friend-actions.ts`。
+
+## Action 列表
+
+| Action | 说明 |
+|---|---|
+| `get_friend_list` | 获取好友列表（兼容入口） |
+| `get_friend_list_with_group` | 获取带分组的好友列表 |
+| `get_user_info` | 获取用户资料 |
+| `send_like_friend` | 给好友点赞 |
+
 ## 获取好友的分组及列表
 
 Action: `get_friend_list_with_group`

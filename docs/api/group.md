@@ -1,5 +1,17 @@
 # 群API
 
+本页对应 `src/app/group/register-group-actions.ts`。
+
+## Action 列表
+
+| Action | 说明 |
+|---|---|
+| `get_group_list` | 获取群列表 |
+| `get_group_info` | 获取群资料 |
+| `get_group_msg` | 获取群消息列表 |
+| `get_group_member_info` | 获取群成员资料 |
+| `send_nudge_to_member` | 对群成员发送戳一戳 |
+
 ## 获取群列表
 
 Action: `get_group_list`

@@ -71,8 +71,9 @@ Action: `send_message`
 
 | 字段 | 类型 | 说明 |
 |-----|------|------|
-| detail_type | 'group' | 固定字符串值，group |
-| group_id | int64 | 群id |
+| detail_type | 'group' / 'private' | 发送目标类型 |
+| group_id | int64 | 当 `detail_type=group` 时必填 |
+| user_id | string | 当 `detail_type=private` 时必填，格式通常为 `u_xxx` |
 | message | array<[message](../reference/message)> | 消息元素数组 |
 
 响应数据：
@@ -83,7 +84,9 @@ Action: `send_message`
 
 ## 发送转发消息
 
-> 支持版本：内部开发版
+Action: `send_forward_message`
+
+> 当前仅支持 `detail_type=group`。
 
 样例：
 

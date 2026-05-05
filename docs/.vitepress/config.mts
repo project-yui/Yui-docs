@@ -37,6 +37,10 @@ export default defineConfig({
             link: '/api/common'
           },
           {
+            text: '事件',
+            link: '/api/event'
+          },
+          {
             text: '好友',
             link: '/api/friend'
           },
@@ -89,6 +93,7 @@ export default defineConfig({
           items: [
             { text: 'Bot 账号', link: '/api/bot' },
             { text: '公共API', link: '/api/common' },
+            { text: '事件API', link: '/api/event' },
             { text: '好友API', link: '/api/friend' },
             { text: '群组API', link: '/api/group' },
             { text: '频道API', link: '/api/guild' }

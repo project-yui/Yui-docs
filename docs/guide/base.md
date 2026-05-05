@@ -50,3 +50,17 @@ Yui 通过 websocket/HTTP 等协议与外部进行通信；Yui 类似于一个 `
 2. 命令行打开im文件夹，设置环境变量 `export ELECTRON_RUN_AS_NODE=1`。
 3. 执行命令启动程序：`./im ./resources/app/app_launcher/index.js`。
 
+## 源码运行（推荐开发者）
+
+在 `Yui` 项目目录执行：
+
+- `pnpm run yui:install`
+- `pnpm run yui:dev`
+- `pnpm run yui:build`
+- `pnpm run yui:nodestart`
+
+辅助命令：
+
+- `pnpm run ui:start`
+- `pnpm run ui:start-log-file`
+
